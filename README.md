@@ -1,6 +1,6 @@
 ![Image](http://www.fdbhealth.com/~/media/images/logos/fdb_logo.ashx)
 
-###Note
+###**Note**
 * FDB Cloud Connector API Postman Collection has been updated with URL and security credentials. 
 * FDB Cloud Connector API Environment file has been removed and the environment information has been incorporated in the Postman Collection.
 
