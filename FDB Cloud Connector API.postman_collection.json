@@ -14,17 +14,17 @@
 				{
 					"name": "GetClassificationByID",
 					"request": {
-						"url": "{{url}}Classifications/68200000?ClassificationType=AHFS&CallSystemName=Hackathon&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Classifications/68200000?ClassificationType=AHFS&CallSystemName=Hackathon&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -44,17 +44,17 @@
 				{
 					"name": "Get Classifications By Drug ID",
 					"request": {
-						"url": "{{url}}PackagedDrugs/08380003275/Classifications?ClassificationType=ETC&CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/08380003275/Classifications?ClassificationType=ETC&CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -74,17 +74,17 @@
 				{
 					"name": "Get DrugLinks by ClassificationID",
 					"request": {
-						"url": "{{url}}Classifications/08121200/DrugLinks?ClassificationType=AHFS&CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&DrugConceptType=DispensableDrug",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Classifications/08121200/DrugLinks?ClassificationType=AHFS&CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&DrugConceptType=DispensableDrug",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -104,17 +104,17 @@
 				{
 					"name": "Get Classification Tree by ID",
 					"request": {
-						"url": "{{url}}ClassificationsTree/08000000?ClassificationType=AHFS&CallSystemName=Hackathon&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ClassificationsTree/08000000?ClassificationType=AHFS&CallSystemName=Hackathon&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -134,17 +134,17 @@
 				{
 					"name": "Get InteroperableDrugLinks By ClassificationID",
 					"request": {
-						"url": "{{url}}Classifications/1013/InteroperableDrugLinks?ClassificationType=ETC&CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&InteroperableType=RxNormGenericPack",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Classifications/1013/InteroperableDrugLinks?ClassificationType=ETC&CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&InteroperableType=RxNormGenericPack",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -164,17 +164,17 @@
 				{
 					"name": "SearchClassifications",
 					"request": {
-						"url": "{{url}}Classifications?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Blah&SearchType=All&ClassificationType=ETC&PhoneticSearch=AfterEmpty",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Classifications?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Blah&SearchType=All&ClassificationType=ETC&PhoneticSearch=AfterEmpty",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -200,17 +200,17 @@
 				{
 					"name": "GetCurrentFederalSchedule",
 					"request": {
-						"url": "{{url}}DispensableDrugs/196684/CurrentFederalSchedule?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/196684/CurrentFederalSchedule?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -230,17 +230,17 @@
 				{
 					"name": "GetCurrentPDMPMonitoredSubstances",
 					"request": {
-						"url": "{{url}}DispensableDrugs/150370/CurrentPDMPMonitoredSubstances?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&states=AK,AL,AR,AZ,CA&pdmpListTypeCode=Type1",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/150370/CurrentPDMPMonitoredSubstances?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&states=AK,AL,AR,AZ,CA&pdmpListTypeCode=Type1",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -260,17 +260,17 @@
 				{
 					"name": "GetCurrentStateSchedules",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00002140701/CurrentStateSchedules?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&states=MA,VA&ScriptDEASubsetCode=4",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00002140701/CurrentStateSchedules?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&states=MA,VA&ScriptDEASubsetCode=4",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -290,17 +290,17 @@
 				{
 					"name": "GetFederalSchedules",
 					"request": {
-						"url": "{{url}}DispensableDrugs/556940/FederalSchedules?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&startDate=2013-01-01",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/556940/FederalSchedules?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&startDate=2013-01-01",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -320,17 +320,17 @@
 				{
 					"name": "GetMostRestrictiveSchedule",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00002140701/MostRestrictiveSchedule?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&states=MA,VA&ScriptDEASubsetCode=4",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00002140701/MostRestrictiveSchedule?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&states=MA,VA&ScriptDEASubsetCode=4",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -350,17 +350,17 @@
 				{
 					"name": "GetPDMPMonitoredSubstances",
 					"request": {
-						"url": "{{url}}DispensableDrugs/150370/PDMPMonitoredSubstances?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&states=AK,AL,AR,AZ,CA",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/150370/PDMPMonitoredSubstances?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&states=AK,AL,AR,AZ,CA",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -380,17 +380,17 @@
 				{
 					"name": "GetStateSchedules",
 					"request": {
-						"url": "{{url}}DispensableDrugs/150020/StateSchedules?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&states=MA,VA",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/150020/StateSchedules?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&states=MA,VA",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -410,17 +410,17 @@
 				{
 					"name": "SearchFederalSchedules",
 					"request": {
-						"url": "{{url}}FederalSchedules?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&drugConceptType=DispensableDrug&drugScheduleCode=Schedule2&drugIds=555745,151208,166037&startDate=2013-01-01",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/FederalSchedules?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&drugConceptType=DispensableDrug&drugScheduleCode=Schedule2&drugIds=555745,151208,166037&startDate=2013-01-01",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -440,17 +440,17 @@
 				{
 					"name": "SearchPDMPMonitoredSubstances",
 					"request": {
-						"url": "{{url}}PDMPMonitoredSubstances?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&state=AK&drugConceptType=DispensableDrug&drugIds=150370",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PDMPMonitoredSubstances?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&state=AK&drugConceptType=DispensableDrug&drugIds=150370",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -470,17 +470,17 @@
 				{
 					"name": "SearchStateSchedules",
 					"request": {
-						"url": "{{url}}StateSchedules?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&state=AK&narcoticInclusion=Both&drugConceptType=DispensableDrug&drugScheduleCode=Schedule3&drugIds=150813,180260,182158",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/StateSchedules?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&state=AK&narcoticInclusion=Both&drugConceptType=DispensableDrug&drugScheduleCode=Schedule3&drugIds=150813,180260,182158",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -506,17 +506,17 @@
 				{
 					"name": "GetCurrentPricing",
 					"request": {
-						"url": "{{url}}PackagedDrugs/52959050860/CurrentPrices?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/52959050860/CurrentPrices?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -536,17 +536,17 @@
 				{
 					"name": "GetDispensableDrugByID",
 					"request": {
-						"url": "{{url}}DispensableDrugs/150350?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/150350?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -566,17 +566,17 @@
 				{
 					"name": "GetDispensableGenericByID",
 					"request": {
-						"url": "{{url}}DispensableGenerics/16311?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableGenerics/16311?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -596,17 +596,17 @@
 				{
 					"name": "GetDrugNameByID",
 					"request": {
-						"url": "{{url}}DrugNames/118661?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugNames/118661?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -626,17 +626,17 @@
 				{
 					"name": "GetEquivalentPackagedDrugs",
 					"request": {
-						"url": "{{url}}DispensableDrugs/559113/EquivalentPackagedDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/559113/EquivalentPackagedDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -656,17 +656,17 @@
 				{
 					"name": "GetGenericDrugByID",
 					"request": {
-						"url": "{{url}}GenericDrugs/8?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/GenericDrugs/8?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -686,17 +686,17 @@
 				{
 					"name": "GetMostCommonBrands",
 					"request": {
-						"url": "{{url}}RoutedDrugs/251/MostCommonBrands?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RoutedDrugs/251/MostCommonBrands?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -716,17 +716,17 @@
 				{
 					"name": "GetPackagedDrugByID",
 					"request": {
-						"url": "{{url}}PackagedDrugs/65702027510?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/65702027510?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -746,17 +746,17 @@
 				{
 					"name": "GetPricing",
 					"request": {
-						"url": "{{url}}PackagedDrugs/52959050860/Prices?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/52959050860/Prices?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -776,17 +776,17 @@
 				{
 					"name": "GetRelatedDispensableDrugs",
 					"request": {
-						"url": "{{url}}DrugNames/2189/DispensableDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugNames/2189/DispensableDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -806,17 +806,17 @@
 				{
 					"name": "GetRelatedDispensableGenerics",
 					"request": {
-						"url": "{{url}}DispensableDrugs/272334/DispensableGenerics?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/272334/DispensableGenerics?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -836,17 +836,17 @@
 				{
 					"name": "GetRelatedDrugNames",
 					"request": {
-						"url": "{{url}}GenericDrugs/151/DrugNames?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/GenericDrugs/151/DrugNames?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -866,17 +866,17 @@
 				{
 					"name": "GetRelatedGenericDrugs",
 					"request": {
-						"url": "{{url}}DrugNames/15176/GenericDrugs?CallSystemName=Hackaton&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugNames/15176/GenericDrugs?CallSystemName=Hackaton&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -896,17 +896,17 @@
 				{
 					"name": "GetRelatedGenericDrugsByIngredientID",
 					"request": {
-						"url": "{{url}}Ingredients/625/GenericDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Ingredients/625/GenericDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -926,17 +926,17 @@
 				{
 					"name": "GetRelatedGenericTypeDrugNames",
 					"request": {
-						"url": "{{url}}DispensableDrugs/450455/GenericTypeDrugNames?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/450455/GenericTypeDrugNames?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -956,17 +956,17 @@
 				{
 					"name": "GetRelatedPackagedDrugs",
 					"request": {
-						"url": "{{url}}DispensableDrugs/555670/PackagedDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/555670/PackagedDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -986,17 +986,17 @@
 				{
 					"name": "GetRelatedRoutedDoseFormDrugs",
 					"request": {
-						"url": "{{url}}DrugNames/631/RoutedDoseFormDrugs?CallSystemName=Hackaton&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugNames/631/RoutedDoseFormDrugs?CallSystemName=Hackaton&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1016,17 +1016,17 @@
 				{
 					"name": "GetRelatedRoutedDoseFormGenerics",
 					"request": {
-						"url": "{{url}}GenericDrugs/3965/RoutedDoseFormGenerics?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/GenericDrugs/3965/RoutedDoseFormGenerics?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1046,17 +1046,17 @@
 				{
 					"name": "GetRelatedRoutedDrugs",
 					"request": {
-						"url": "{{url}}DrugNames/5874/RoutedDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugNames/5874/RoutedDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1076,17 +1076,17 @@
 				{
 					"name": "GetRelatedRoutedGenerics",
 					"request": {
-						"url": "{{url}}GenericDrugs/4003/RoutedGenerics?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/GenericDrugs/4003/RoutedGenerics?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1106,17 +1106,17 @@
 				{
 					"name": "GetReplacementDrugsForDispensableDrug",
 					"request": {
-						"url": "{{url}}DispensableDrugs/208797/ReplacementDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/208797/ReplacementDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1136,17 +1136,17 @@
 				{
 					"name": "GetReplacementDrugsForDrugName",
 					"request": {
-						"url": "{{url}}DrugNames/8189/ReplacementDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugNames/8189/ReplacementDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1166,17 +1166,17 @@
 				{
 					"name": "GetReplacementDrugsForRoutedDoseFormDrug",
 					"request": {
-						"url": "{{url}}RoutedDoseFormDrugs/9561/ReplacementDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RoutedDoseFormDrugs/9561/ReplacementDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1196,17 +1196,17 @@
 				{
 					"name": "GetReplacementDrugsForRoutedDrug",
 					"request": {
-						"url": "{{url}}RoutedDrugs/8609/ReplacementDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RoutedDrugs/8609/ReplacementDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1226,17 +1226,17 @@
 				{
 					"name": "GetRoutedDoseFormDrugByID",
 					"request": {
-						"url": "{{url}}RoutedDoseFormDrugs/93329?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RoutedDoseFormDrugs/93329?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1256,17 +1256,17 @@
 				{
 					"name": "GetRoutedDoseFormGenericByID",
 					"request": {
-						"url": "{{url}}RoutedDoseFormGenerics/9370?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RoutedDoseFormGenerics/9370?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1286,17 +1286,17 @@
 				{
 					"name": "GetRoutedDrugByID",
 					"request": {
-						"url": "{{url}}RoutedDrugs/152595?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RoutedDrugs/152595?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1316,17 +1316,17 @@
 				{
 					"name": "GetRoutedGenericByID",
 					"request": {
-						"url": "{{url}}RoutedGenerics/33569689?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RoutedGenerics/33569689?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1346,17 +1346,17 @@
 				{
 					"name": "SearchDispensableDrugs",
 					"request": {
-						"url": "{{url}}DispensableDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=advi&SearchType=Contains&PhoneticSearch=AfterEmpty",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=advi&SearchType=Contains&PhoneticSearch=AfterEmpty",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1376,17 +1376,17 @@
 				{
 					"name": "SearchDispensableGenerics",
 					"request": {
-						"url": "{{url}}DispensableGenerics?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Codeine 30&SearchType=Contains&PhoneticSearch=NoPhonetic&SearchFilter=IsSingleIngredient: \"true\" AND NameTypeCodeDesc: \"Brand Name\" AND NOT RoutedDoseFormGenericDesc: \"CODEINE SULFATE ORAL Solution, Oral\"",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableGenerics?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Codeine 30&SearchType=Contains&PhoneticSearch=NoPhonetic&SearchFilter=IsSingleIngredient: \"true\" AND NameTypeCodeDesc: \"Brand Name\" AND NOT RoutedDoseFormGenericDesc: \"CODEINE SULFATE ORAL Solution, Oral\"",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1406,17 +1406,17 @@
 				{
 					"name": "SearchDrugNames",
 					"request": {
-						"url": "{{url}}DrugNames?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=adac mula&SearchType=Contains&PhoneticSearch=NoPhonetic&SearchFilter=(StatusCodeDesc:*active)",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugNames?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=adac mula&SearchType=Contains&PhoneticSearch=NoPhonetic&SearchFilter=(StatusCodeDesc:*active)",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1436,17 +1436,17 @@
 				{
 					"name": "SearchGenericDrugs",
 					"request": {
-						"url": "{{url}}GenericDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Pro Cove Therm&SearchType=Exhaustive&PhoneticSearch=NoPhonetic",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/GenericDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Pro Cove Therm&SearchType=Exhaustive&PhoneticSearch=NoPhonetic",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1466,17 +1466,17 @@
 				{
 					"name": "SearchPackagedDrugs",
 					"request": {
-						"url": "{{url}}PackagedDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Codeine 30&SearchType=Contains&PhoneticSearch=NoPhonetic&SearchFilter=NADACClassificationForRateSetting: \"G\" AND UnitDosePackagingIndicator: \"1\" AND DispensableDrugDesc: \"codeine sulfate 30 mg tablet\"",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Codeine 30&SearchType=Contains&PhoneticSearch=NoPhonetic&SearchFilter=NADACClassificationForRateSetting: \"G\" AND UnitDosePackagingIndicator: \"1\" AND DispensableDrugDesc: \"codeine sulfate 30 mg tablet\"",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1496,17 +1496,17 @@
 				{
 					"name": "SearchRoutedDoseFormDrugs",
 					"request": {
-						"url": "{{url}}RoutedDoseFormDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Emp Steri Via&SearchType=Contains&PhoneticSearch=NoPhonetic",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RoutedDoseFormDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Emp Steri Via&SearchType=Contains&PhoneticSearch=NoPhonetic",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1526,17 +1526,17 @@
 				{
 					"name": "SearchRoutedDoseFormGenerics",
 					"request": {
-						"url": "{{url}}RoutedDoseFormGenerics?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Cap met Sali Top Lot&SearchType=Contains&PhoneticSearch=NoPhonetic",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RoutedDoseFormGenerics?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Cap met Sali Top Lot&SearchType=Contains&PhoneticSearch=NoPhonetic",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1556,17 +1556,17 @@
 				{
 					"name": "SearchRoutedDrugs",
 					"request": {
-						"url": "{{url}}RoutedDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=dnes lieve brica thalm&SearchType=Contains&PhoneticSearch=NoPhonetic",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RoutedDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=dnes lieve brica thalm&SearchType=Contains&PhoneticSearch=NoPhonetic",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1586,17 +1586,17 @@
 				{
 					"name": "SearchRoutedGenerics",
 					"request": {
-						"url": "{{url}}RoutedGenerics?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=EMOL COMBI NO.10 TOP&SearchType=Contains&PhoneticSearch=NoPhonetic",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RoutedGenerics?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=EMOL COMBI NO.10 TOP&SearchType=Contains&PhoneticSearch=NoPhonetic",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1622,17 +1622,17 @@
 				{
 					"name": "GetCounselingMessagesByDrugID",
 					"request": {
-						"url": "{{url}}DispensableDrugs/242254/CounselingMessages?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Language=English",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/242254/CounselingMessages?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Language=English",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1658,17 +1658,17 @@
 				{
 					"name": "GetDosageFormByID",
 					"request": {
-						"url": "{{url}}DosageForms/505?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DosageForms/505?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1688,17 +1688,17 @@
 				{
 					"name": "GetDosageFormsByDrugID",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00206885416/DosageForms?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00206885416/DosageForms?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1718,17 +1718,17 @@
 				{
 					"name": "SearchDosageForms",
 					"request": {
-						"url": "{{url}}DosageForms?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Aerosol&SearchType=Contains",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DosageForms?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Aerosol&SearchType=Contains",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1754,17 +1754,17 @@
 				{
 					"name": "GetDoseRecordsByDrug",
 					"request": {
-						"url": "{{url}}PackagedDrugs/43353082465/DoseRecords?DoseModule=DRC&CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/43353082465/DoseRecords?DoseModule=DRC&CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1784,17 +1784,17 @@
 				{
 					"name": "GetDoseScreenMonographByID",
 					"request": {
-						"url": "{{url}}DosingMonographs/2301?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Language=English",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DosingMonographs/2301?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Language=English",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1820,17 +1820,17 @@
 				{
 					"name": "GetAllergenGroupsIngredients",
 					"request": {
-						"url": "{{url}}AllergenGroups/900128/Ingredients?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/AllergenGroups/900128/Ingredients?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1850,17 +1850,17 @@
 				{
 					"name": "GetIngredientAllergenGroups",
 					"request": {
-						"url": "{{url}}Ingredients/704/IngredientAllergenGroups?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Ingredients/704/IngredientAllergenGroups?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1880,17 +1880,17 @@
 				{
 					"name": "GetReplacementAllergenGroups",
 					"request": {
-						"url": "{{url}}AllergenGroups/900111/ReplacementAllergenGroups?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/AllergenGroups/900111/ReplacementAllergenGroups?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1910,17 +1910,17 @@
 				{
 					"name": "SearchAllergenGroups",
 					"request": {
-						"url": "{{url}}AllergenGroups?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=alido&SearchType=Contains&PhoneticSearch=NoPhonetic",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/AllergenGroups?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=alido&SearchType=Contains&PhoneticSearch=NoPhonetic",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1940,17 +1940,17 @@
 				{
 					"name": "SearchAllergenPicklist",
 					"request": {
-						"url": "{{url}}AllergenPicklist?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Cain&SearchType=Contains&PhoneticSearch=NoPhonetic",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/AllergenPicklist?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Cain&SearchType=Contains&PhoneticSearch=NoPhonetic",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -1970,17 +1970,17 @@
 				{
 					"name": "SearchInteroperableAllergens",
 					"request": {
-						"url": "{{url}}InteroperableAllergens?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=tad gic crub&SearchType=Contains&PhoneticSearch=NoPhonetic",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/InteroperableAllergens?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=tad gic crub&SearchType=Contains&PhoneticSearch=NoPhonetic",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2000,17 +2000,17 @@
 				{
 					"name": "SearchSNOMEDAllergyValueSets",
 					"request": {
-						"url": "{{url}}SNOMEDAllergyValueSets?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Tig&SearchType=Contains&PhoneticSearch=NoPhonetic",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/SNOMEDAllergyValueSets?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=Tig&SearchType=Contains&PhoneticSearch=NoPhonetic",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2030,17 +2030,17 @@
 				{
 					"name": "TranslateExternalAllergenToFDBAllergen",
 					"request": {
-						"url": "{{url}}TranslateExternalAllergenToFDBAllergen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/TranslateExternalAllergenToFDBAllergen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2060,17 +2060,17 @@
 				{
 					"name": "TranslateExternalAllergenToFDBHL7Message",
 					"request": {
-						"url": "{{url}}TranslateExternalAllergenToFDBHL7Message",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/TranslateExternalAllergenToFDBHL7Message",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2090,17 +2090,17 @@
 				{
 					"name": "TranslateFDBAllergenToExternalAllergen",
 					"request": {
-						"url": "{{url}}TranslateFDBAllergenToExternalAllergen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/TranslateFDBAllergenToExternalAllergen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2120,17 +2120,17 @@
 				{
 					"name": "TranslateSnomedAllergySetToFDBConcept",
 					"request": {
-						"url": "{{url}}TranslateSnomedAllergySetToFDBConcept",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/TranslateSnomedAllergySetToFDBConcept",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2156,17 +2156,17 @@
 				{
 					"name": "GetDiseaseContraindicationsByCondition",
 					"request": {
-						"url": "{{url}}DXID/3258/DrugDiseaseContraindications?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/3258/DrugDiseaseContraindications?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2186,17 +2186,17 @@
 				{
 					"name": "GetDiseaseContraindicationsByDrug",
 					"request": {
-						"url": "{{url}}DispensableDrugs/261383/DrugDiseaseContraindications?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/261383/DrugDiseaseContraindications?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2222,17 +2222,17 @@
 				{
 					"name": "GetConsumerMonograph",
 					"request": {
-						"url": "{{url}}DrugDrugConsumerMonographs/1830?useLegacyFormatting=false&CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugDrugConsumerMonographs/1830?useLegacyFormatting=false&CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2252,17 +2252,17 @@
 				{
 					"name": "GetDisclaimer",
 					"request": {
-						"url": "{{url}}DrugDrugDisclaimer?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugDrugDisclaimer?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2282,17 +2282,17 @@
 				{
 					"name": "GetInteractionByID",
 					"request": {
-						"url": "{{url}}Interactions/14?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Interactions/14?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2312,17 +2312,17 @@
 				{
 					"name": "GetInteractionsByDrug",
 					"request": {
-						"url": "{{url}}DispensableDrugs/173863/Interactions?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/173863/Interactions?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2342,17 +2342,17 @@
 				{
 					"name": "GetProfessionalMonograph",
 					"request": {
-						"url": "{{url}}DrugDrugProfessionalMonographs/336?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugDrugProfessionalMonographs/336?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2378,17 +2378,17 @@
 				{
 					"name": "GetConsumerMonograph",
 					"request": {
-						"url": "{{url}}DrugFoodConsumerMonographs/75?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugFoodConsumerMonographs/75?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2408,17 +2408,17 @@
 				{
 					"name": "GetDisclaimer",
 					"request": {
-						"url": "{{url}}DrugFoodDisclaimer?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugFoodDisclaimer?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2438,17 +2438,17 @@
 				{
 					"name": "GetProfessionalMonograph",
 					"request": {
-						"url": "{{url}}DrugFoodProfessionalMonographs/75?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DrugFoodProfessionalMonographs/75?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2474,17 +2474,17 @@
 				{
 					"name": "GetDuplicateTherapyClasses",
 					"request": {
-						"url": "{{url}}DispensableDrugs/150023/DuplicateTherapyClasses?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/150023/DuplicateTherapyClasses?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2510,17 +2510,17 @@
 				{
 					"name": "General Disclaimer",
 					"request": {
-						"url": "{{url}}GeneralDisclaimer?CallSystemName=Hackathon&language=English",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/GeneralDisclaimer?CallSystemName=Hackathon&language=English",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2546,17 +2546,17 @@
 				{
 					"name": "GetHighRiskIndicatorsByDrug",
 					"request": {
-						"url": "{{url}}HighRiskIndicators?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&DrugIDs=545412,551394,576459,579103&DrugConceptType=DispensableDrug",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/HighRiskIndicators?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&DrugIDs=545412,551394,576459,579103&DrugConceptType=DispensableDrug",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2576,17 +2576,17 @@
 				{
 					"name": "GetREMSActionsByDrug",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00054017613/REMSActions?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&ExcludeActionIDs=4",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00054017613/REMSActions?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&ExcludeActionIDs=4",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2606,17 +2606,17 @@
 				{
 					"name": "GetREMSActionsByRisk",
 					"request": {
-						"url": "{{url}}Risks/10/REMSActions?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Risks/10/REMSActions?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2642,17 +2642,17 @@
 				{
 					"name": "GetImageByDrug",
 					"request": {
-						"url": "{{url}}PackagedDrugs/43386014028/Image?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/43386014028/Image?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2672,17 +2672,17 @@
 				{
 					"name": "GetImageImprintByDrug",
 					"request": {
-						"url": "{{url}}PackagedDrugs/43386014028/ImageImprint?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/43386014028/ImageImprint?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2702,17 +2702,17 @@
 				{
 					"name": "GetImprintByDrug",
 					"request": {
-						"url": "{{url}}PackagedDrugs/43386014028/Imprint?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/43386014028/Imprint?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2732,17 +2732,17 @@
 				{
 					"name": "GetImprintClarities",
 					"request": {
-						"url": "{{url}}ImageImprint/ImprintClarities?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ImageImprint/ImprintClarities?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2762,17 +2762,17 @@
 				{
 					"name": "GetImprintCoatings",
 					"request": {
-						"url": "{{url}}ImageImprint/ImprintCoatings?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ImageImprint/ImprintCoatings?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2792,17 +2792,17 @@
 				{
 					"name": "GetImprintColors",
 					"request": {
-						"url": "{{url}}ImageImprint/ImprintColors?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ImageImprint/ImprintColors?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2822,17 +2822,17 @@
 				{
 					"name": "GetImprintDoseForms",
 					"request": {
-						"url": "{{url}}ImageImprint/ImprintdoseForms?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ImageImprint/ImprintdoseForms?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2852,17 +2852,17 @@
 				{
 					"name": "GetImprintFlavors",
 					"request": {
-						"url": "{{url}}ImageImprint/ImprintFlavors?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ImageImprint/ImprintFlavors?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2882,17 +2882,17 @@
 				{
 					"name": "GetImprintScorings",
 					"request": {
-						"url": "{{url}}ImageImprint/ImprintScorings?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ImageImprint/ImprintScorings?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2912,17 +2912,17 @@
 				{
 					"name": "GetImprintShapePalettes",
 					"request": {
-						"url": "{{url}}ImageImprint/ImprintShapePalettes?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ImageImprint/ImprintShapePalettes?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2942,17 +2942,17 @@
 				{
 					"name": "GetImprintShapes",
 					"request": {
-						"url": "{{url}}ImageImprint/ImprintShapes?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ImageImprint/ImprintShapes?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -2972,17 +2972,17 @@
 				{
 					"name": "ImprintSearch",
 					"request": {
-						"url": "{{url}}ImageImprints?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=PD&ImprintColorCodes=18,63&GetCurrentOnly=true",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ImageImprints?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=PD&ImprintColorCodes=18,63&GetCurrentOnly=true",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3008,17 +3008,17 @@
 				{
 					"name": "GetDispensableDrugsToTreat",
 					"request": {
-						"url": "{{url}}ICD10CM/J45.52/DispensableDrugsToTreat?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ICD10CM/J45.52/DispensableDrugsToTreat?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3038,17 +3038,17 @@
 				{
 					"name": "GetDispensableGenericsToTreat",
 					"request": {
-						"url": "{{url}}ICD9DiseaseInjury/358.9/DispensableGenericsToTreat?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ICD9DiseaseInjury/358.9/DispensableGenericsToTreat?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3068,17 +3068,17 @@
 				{
 					"name": "GetIndicationLinksByCondition",
 					"request": {
-						"url": "{{url}}ICD9DiseaseInjury/358.9/IndicationLinks?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ICD9DiseaseInjury/358.9/IndicationLinks?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3098,17 +3098,17 @@
 				{
 					"name": "GetIndicationLinksByDrug",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00093031101/IndicationLinks?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&ConditionConceptTypes=DXID",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00093031101/IndicationLinks?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&ConditionConceptTypes=DXID",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3128,17 +3128,17 @@
 				{
 					"name": "GetPackagedDrugsToTreat",
 					"request": {
-						"url": "{{url}}ICD10CM/J45.52/PackagedDrugsToTreat?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ICD10CM/J45.52/PackagedDrugsToTreat?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3158,17 +3158,17 @@
 				{
 					"name": "GetRoutedDoseFormDrugsToTreat",
 					"request": {
-						"url": "{{url}}ICD9DiseaseInjury/358.9/RoutedDoseFormDrugsToTreat?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/ICD9DiseaseInjury/358.9/RoutedDoseFormDrugsToTreat?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3188,17 +3188,17 @@
 				{
 					"name": "GetRoutedDrugsToTreat",
 					"request": {
-						"url": "{{url}}DXID/515/RoutedDrugsToTreat?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/515/RoutedDrugsToTreat?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3224,17 +3224,17 @@
 				{
 					"name": "GetIngredient",
 					"request": {
-						"url": "{{url}}Ingredients/767?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Ingredients/767?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3254,17 +3254,17 @@
 				{
 					"name": "GetingredientStrengthByDrug",
 					"request": {
-						"url": "{{url}}DispensableDrugs/433800/IngredientStrength?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/433800/IngredientStrength?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3284,17 +3284,17 @@
 				{
 					"name": "GetReplacementIngredients",
 					"request": {
-						"url": "{{url}}Ingredients/11642/ReplacementIngredients?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Ingredients/11642/ReplacementIngredients?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3314,17 +3314,17 @@
 				{
 					"name": "SearchIngredients",
 					"request": {
-						"url": "{{url}}Ingredients?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=adre ulfa&SearchType=Contains&PhoneticSearch=NoPhonetic",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Ingredients?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=adre ulfa&SearchType=Contains&PhoneticSearch=NoPhonetic",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3350,17 +3350,17 @@
 				{
 					"name": "GetLabelWarningByID",
 					"request": {
-						"url": "{{url}}LabelWarnings/46?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/LabelWarnings/46?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3380,17 +3380,17 @@
 				{
 					"name": "GetLabelWarningDrugLinksByDrugID",
 					"request": {
-						"url": "{{url}}DispensableDrugs/150013/LabelWarningDrugLinks?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Language=English",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/150013/LabelWarningDrugLinks?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Language=English",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3410,17 +3410,17 @@
 				{
 					"name": "GetLabelWarningDrugLinksByDrugIDAndVendorType",
 					"request": {
-						"url": "{{url}}PackagedDrugs/60432000708/LabelWarningDrugLinksWithVendorType?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Language=English&VendorTypeCode=17",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/60432000708/LabelWarningDrugLinksWithVendorType?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Language=English&VendorTypeCode=17",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3440,17 +3440,17 @@
 				{
 					"name": "SearchLabelWarnings",
 					"request": {
-						"url": "{{url}}LabelWarnings?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=alcohol&SearchType=Contains&Language=English",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/LabelWarnings?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=alcohol&SearchType=Contains&Language=English",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3476,17 +3476,17 @@
 				{
 					"name": "GetHTMLMedGuide",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00006003310/HTMLMedGuide?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00006003310/HTMLMedGuide?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3506,17 +3506,17 @@
 				{
 					"name": "GetPDFMedGuide",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00006003310/PDFMedGuide?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00006003310/PDFMedGuide?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3542,17 +3542,17 @@
 				{
 					"name": "GetAssociatedMedicalConditions",
 					"request": {
-						"url": "{{url}}DXID/3412/AssociatedMedicalConditions?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/3412/AssociatedMedicalConditions?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3572,17 +3572,17 @@
 				{
 					"name": "GetBillableHistory",
 					"request": {
-						"url": "{{url}}DXID/3412/BillableHistory?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/3412/BillableHistory?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3602,17 +3602,17 @@
 				{
 					"name": "GetChildMedicalConditions",
 					"request": {
-						"url": "{{url}}DXID/3412/Children?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/3412/Children?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3632,17 +3632,17 @@
 				{
 					"name": "GetMedicalCondition",
 					"request": {
-						"url": "{{url}}DXID/3412?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/3412?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3662,17 +3662,17 @@
 				{
 					"name": "GetParentMedicalConditions",
 					"request": {
-						"url": "{{url}}DXID/3412/Parents?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/3412/Parents?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3692,17 +3692,17 @@
 				{
 					"name": "GetReplacementMedicalConditions",
 					"request": {
-						"url": "{{url}}DXID/3412/Replacements?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/3412/Replacements?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3722,17 +3722,17 @@
 				{
 					"name": "GetTopLevelMedicalConditions",
 					"request": {
-						"url": "{{url}}DXID/3412/TopLevels?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/3412/TopLevels?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3752,17 +3752,17 @@
 				{
 					"name": "SearchMedicalConditions",
 					"request": {
-						"url": "{{url}}DXID?SearchText=Chronic Myelocytic Leukemia&SearchType=Contains&PhoneticSearch=NoPhonetic&CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID?SearchText=Chronic Myelocytic Leukemia&SearchType=Contains&PhoneticSearch=NoPhonetic&CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3788,17 +3788,17 @@
 				{
 					"name": "GetCVXCodeByID",
 					"request": {
-						"url": "{{url}}CVXCodes/123?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/CVXCodes/123?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3818,17 +3818,17 @@
 				{
 					"name": "GetCVXCodesByDrug",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00006468100/CVXCodes?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&ResponseFields=CVXCodeID,CVXCodeDesc,VocabularyTypeOID,VocabularyTypeID,VocabularyTypeDesc,DrugConceptType",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00006468100/CVXCodes?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&ResponseFields=CVXCodeID,CVXCodeDesc,VocabularyTypeOID,VocabularyTypeID,VocabularyTypeDesc,DrugConceptType",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3848,17 +3848,17 @@
 				{
 					"name": "GetMVXCodeByID",
 					"request": {
-						"url": "{{url}}MVXCodes/MSD?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/MVXCodes/MSD?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3878,17 +3878,17 @@
 				{
 					"name": "GetMVXCodesByDrug",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00005010001/MVXCodes?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&ResponseFields=MVXCodeID,MVXCodeDesc,VocabularyTypeOID,VocabularyTypeID,VocabularyTypeDesc,DrugConceptType",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00005010001/MVXCodes?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&ResponseFields=MVXCodeID,MVXCodeDesc,VocabularyTypeOID,VocabularyTypeID,VocabularyTypeDesc,DrugConceptType",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3908,17 +3908,17 @@
 				{
 					"name": "GetPreferredDispensableDrugByRxNormConcept",
 					"request": {
-						"url": "{{url}}RxNormConcepts/999472/PreferredDispensableDrug?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RxNormConcepts/999472/PreferredDispensableDrug?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3938,17 +3938,17 @@
 				{
 					"name": "GetPreferredDispensableGenericByRxNormConcept",
 					"request": {
-						"url": "{{url}}RxNormConcepts/999472/PreferredDispensableGeneric?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RxNormConcepts/999472/PreferredDispensableGeneric?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3968,17 +3968,17 @@
 				{
 					"name": "GetRxNormConceptByID",
 					"request": {
-						"url": "{{url}}RxNormConcepts/1007374?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/RxNormConcepts/1007374?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -3998,17 +3998,17 @@
 				{
 					"name": "GetRxNormConceptsByDrug",
 					"request": {
-						"url": "{{url}}DispensableDrugs/214453/RxNormConcepts?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/214453/RxNormConcepts?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4034,17 +4034,17 @@
 				{
 					"name": "GetAdultSigsByPrescribableDrug",
 					"request": {
-						"url": "{{url}}PrescribableDrugs/199432/AdultSigs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PrescribableDrugs/199432/AdultSigs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4064,17 +4064,17 @@
 				{
 					"name": "GetCalculatedSigsByPrescribableDrug",
 					"request": {
-						"url": "{{url}}PrescribableDrugs/199432/CalculatedSigs?CallSystemName=Hackathon&CallID=7779311&PatientWeight=15&PatientWeightUnits=Kilogram&BodySurfaceArea=1.98&BodySurfaceAreaUnits=MeterSquared&AgeInDays=7000",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PrescribableDrugs/199432/CalculatedSigs?CallSystemName=Hackathon&CallID=7779311&PatientWeight=15&PatientWeightUnits=Kilogram&BodySurfaceArea=1.98&BodySurfaceAreaUnits=MeterSquared&AgeInDays=7000",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4094,17 +4094,17 @@
 				{
 					"name": "GetDistinctDosesByPrescribableDrug",
 					"request": {
-						"url": "{{url}}PrescribableDrugs/150297/DistinctDoses?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PrescribableDrugs/150297/DistinctDoses?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4124,17 +4124,17 @@
 				{
 					"name": "GetPrescribableDrugByID",
 					"request": {
-						"url": "{{url}}PrescribableDrugs/150297?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PrescribableDrugs/150297?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4154,17 +4154,17 @@
 				{
 					"name": "GetRelatedPrescribableDrugs",
 					"request": {
-						"url": "{{url}}DispensableDrugs/150340/PrescribableDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/150340/PrescribableDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4184,17 +4184,17 @@
 				{
 					"name": "GetSearchTermsByPrescribableDrug",
 					"request": {
-						"url": "{{url}}PrescribableDrugs/150020/SearchTerms?CallSystemName=Hackathon&CallID=7779311",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PrescribableDrugs/150020/SearchTerms?CallSystemName=Hackathon&CallID=7779311",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4214,17 +4214,17 @@
 				{
 					"name": "GetSigByID",
 					"request": {
-						"url": "{{url}}Sigs/119642?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SigTypeCode=1",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Sigs/119642?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SigTypeCode=1",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4244,17 +4244,17 @@
 				{
 					"name": "GetSigsByPrescribableDrug",
 					"request": {
-						"url": "{{url}}PrescribableDrugs/150297/Sigs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PrescribableDrugs/150297/Sigs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4274,17 +4274,17 @@
 				{
 					"name": "SearchPrescribableDrugs",
 					"request": {
-						"url": "{{url}}PrescribableDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=oxycon 60 tab&SearchType=Contains",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PrescribableDrugs?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=oxycon 60 tab&SearchType=Contains",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4310,17 +4310,17 @@
 				{
 					"name": "SearchOrderableMed",
 					"request": {
-						"url": "{{url}}OrderableMeds?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=VITAMIN&SearchType=Contains",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/OrderableMeds?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=VITAMIN&SearchType=Contains",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4346,17 +4346,17 @@
 				{
 					"name": "GetPatientEducationMonograph",
 					"request": {
-						"url": "{{url}}PatientEducationMonographs/862?CallSystemName=Hackathon&language=English",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PatientEducationMonographs/862?CallSystemName=Hackathon&language=English",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4376,17 +4376,17 @@
 				{
 					"name": "GetPatientEducationMonographFormatted",
 					"request": {
-						"url": "{{url}}PatientEducationMonographsFormatted/862?CallSystemName=Hackathon&language=English",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PatientEducationMonographsFormatted/862?CallSystemName=Hackathon&language=English",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4406,17 +4406,17 @@
 				{
 					"name": "GetPatientEducationMonographsByDrug",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00009027401/PatientEducationMonographs?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00009027401/PatientEducationMonographs?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4436,17 +4436,17 @@
 				{
 					"name": "GetPatientEducationMonographsByDrugFormatted",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00009027401/PatientEducationMonographsFormatted?CallSystemName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00009027401/PatientEducationMonographsFormatted?CallSystemName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4466,17 +4466,17 @@
 				{
 					"name": "GetPatientEducationMonographsByDrugXML",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00009027401/PatientEducationMonographsXML?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Language=English",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00009027401/PatientEducationMonographsXML?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Language=English",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4496,17 +4496,17 @@
 				{
 					"name": "GetPatientEducationMonographXML",
 					"request": {
-						"url": "{{url}}PatientEducationMonographsXML/862?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Language=English",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PatientEducationMonographsXML/862?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Language=English",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4532,17 +4532,17 @@
 				{
 					"name": "Geriatric",
 					"request": {
-						"url": "{{url}}DispensableDrugs/209708/PrecautionsGeriatric?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/209708/PrecautionsGeriatric?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4562,17 +4562,17 @@
 				{
 					"name": "Lactation",
 					"request": {
-						"url": "{{url}}DispensableDrugs/475233/PrecautionsLactation?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/475233/PrecautionsLactation?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4592,17 +4592,17 @@
 				{
 					"name": "Pediatric",
 					"request": {
-						"url": "{{url}}DispensableDrugs/231133/PrecautionsPediatric?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/231133/PrecautionsPediatric?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4622,17 +4622,17 @@
 				{
 					"name": "Pregnancy",
 					"request": {
-						"url": "{{url}}DispensableDrugs/436578/PrecautionsPregnancy?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/436578/PrecautionsPregnancy?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4658,17 +4658,17 @@
 				{
 					"name": "GetRouteByID",
 					"request": {
-						"url": "{{url}}Routes/322?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Routes/322?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4688,17 +4688,17 @@
 				{
 					"name": "GetRoutesByDrugID",
 					"request": {
-						"url": "{{url}}PackagedDrugs/00310028239/Routes?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/PackagedDrugs/00310028239/Routes?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4718,17 +4718,17 @@
 				{
 					"name": "SearchRoutes",
 					"request": {
-						"url": "{{url}}Routes?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=inh&SearchType=Contains",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Routes?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=inh&SearchType=Contains",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4754,17 +4754,17 @@
 				{
 					"name": "Drug Allergy Screen",
 					"request": {
-						"url": "{{url}}Screen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Screen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4784,17 +4784,17 @@
 				{
 					"name": "Drug Disease Contraindication Screen",
 					"request": {
-						"url": "{{url}}Screen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Screen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4814,17 +4814,17 @@
 				{
 					"name": "Drug Drug Interaction Screen",
 					"request": {
-						"url": "{{url}}Screen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Screen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4844,17 +4844,17 @@
 				{
 					"name": "Drug Food Interaction Screen",
 					"request": {
-						"url": "{{url}}Screen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Screen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4874,17 +4874,17 @@
 				{
 					"name": "Duplicate Therapy Screen",
 					"request": {
-						"url": "{{url}}Screen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Screen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4904,17 +4904,17 @@
 				{
 					"name": "Dosing For Screening",
 					"request": {
-						"url": "{{url}}Screen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Screen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4934,17 +4934,17 @@
 				{
 					"name": "MinMax Screen",
 					"request": {
-						"url": "{{url}}Screen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Screen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4964,17 +4964,17 @@
 				{
 					"name": "Geriatric Precautions Screen",
 					"request": {
-						"url": "{{url}}Screen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Screen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -4994,17 +4994,17 @@
 				{
 					"name": "Lactation Precautions Screen",
 					"request": {
-						"url": "{{url}}Screen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Screen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5024,17 +5024,17 @@
 				{
 					"name": "Pediatric Precautions Screen ",
 					"request": {
-						"url": "{{url}}Screen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Screen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5054,17 +5054,17 @@
 				{
 					"name": "Pregancy Precautions Screen",
 					"request": {
-						"url": "{{url}}Screen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Screen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5084,17 +5084,17 @@
 				{
 					"name": "Side Effects Screen",
 					"request": {
-						"url": "{{url}}Screen",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Screen",
 						"method": "POST",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5120,17 +5120,17 @@
 				{
 					"name": "GetDispensableDrugsThatCause",
 					"request": {
-						"url": "{{url}}DXID/34/DispensableDrugsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/34/DispensableDrugsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5150,17 +5150,17 @@
 				{
 					"name": "GetDispensableGenericsThatCause",
 					"request": {
-						"url": "{{url}}DXID/34/DispensableGenericsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/34/DispensableGenericsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5180,17 +5180,17 @@
 				{
 					"name": "GetPackagedDrugsThatCause",
 					"request": {
-						"url": "{{url}}DXID/34/PackagedDrugsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/34/PackagedDrugsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5210,17 +5210,17 @@
 				{
 					"name": "GetRoutedDoseFormDrugsThatCause",
 					"request": {
-						"url": "{{url}}DXID/34/RoutedDoseFormDrugsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/34/RoutedDoseFormDrugsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5240,17 +5240,17 @@
 				{
 					"name": "GetRoutedDoseFormGenericsThatCause",
 					"request": {
-						"url": "{{url}}DXID/34/RoutedDoseFormGenericsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/34/RoutedDoseFormGenericsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5270,17 +5270,17 @@
 				{
 					"name": "GetRoutedDrugsThatCause",
 					"request": {
-						"url": "{{url}}DXID/34/RoutedDrugsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/34/RoutedDrugsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5300,17 +5300,17 @@
 				{
 					"name": "GetRoutedGenericsThatCause",
 					"request": {
-						"url": "{{url}}DXID/34/RoutedGenericsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/34/RoutedGenericsThatCause?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5330,17 +5330,17 @@
 				{
 					"name": "GetSideEffectLinksByCondition",
 					"request": {
-						"url": "{{url}}DXID/34/SideEffectLinks?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DXID/34/SideEffectLinks?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5360,17 +5360,17 @@
 				{
 					"name": "GetSideEffectLinksByDrug",
 					"request": {
-						"url": "{{url}}DispensableDrugs/231812/SideEffectLinks?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/DispensableDrugs/231812/SideEffectLinks?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5396,17 +5396,17 @@
 				{
 					"name": "GetUnitByID",
 					"request": {
-						"url": "{{url}}Units/133?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Units/133?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5426,17 +5426,17 @@
 				{
 					"name": "GetUnitConversion",
 					"request": {
-						"url": "{{url}}UnitConversion?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Amount=1&FromUnitDesc=inch&ToUnitDesc=centimeter",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/UnitConversion?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&Amount=1&FromUnitDesc=inch&ToUnitDesc=centimeter",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
@@ -5456,17 +5456,17 @@
 				{
 					"name": "SearchUnits",
 					"request": {
-						"url": "{{url}}Units?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=val&SearchType=Contains",
+						"url": "https://api.fdbcloudconnector.com/cc/api/v1_3/Units?CallSystemName=Hackathon&CallID=8675309&DeptName=Hackathon&SearchText=val&SearchType=Contains",
 						"method": "GET",
 						"header": [
 							{
-								"key": "{{header}}",
-								"value": "{{client-secret}}",
+								"key": "Authorization",
+								"value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
 								"description": ""
 							},
 							{
-								"key": "{{headerAccept}}",
-								"value": "{{headerAcceptValue}}",
+								"key": "Accept",
+								"value": "application/json",
 								"description": ""
 							},
 							{
