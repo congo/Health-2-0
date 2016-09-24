@@ -1,9 +1,9 @@
 ![Image](http://www.fdbhealth.com/~/media/images/logos/fdb_logo.ashx)
-###For API Access
+###Access the APIs
 * The Postman file **FDB Cloud Connector API Postman Environment** provides the key (built into the header)
 * The Postman file **Meducation API Postman Collection** contains a call to get the auth token
 
-###Sample API calls
+###Sample calls
 * The Postman file **FDB Cloud Connector API Postman Collection** contains a HUGE library of API calls. They're grouped together by type.
 * The Postman file **Meducation API Postman Collection** also contains some sample Meducation API calls
 
