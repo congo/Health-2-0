@@ -1,6 +1,10 @@
 ![Image](http://www.fdbhealth.com/~/media/images/logos/fdb_logo.ashx)
+
+###Note
+* FDB Cloud Connector API Postman Collection has been updated with URL and security credentials. 
+* FDB Cloud Connector API Environment file has been removed and the environment information has been incorporated in the Postman Collection.
+
 ###Access the APIs
-* The Postman file **FDB Cloud Connector API Postman Environment** provides the key (built into the header)
 * The Postman file **Meducation API Postman Collection** contains a call to get the auth token
 
 ###Sample calls
@@ -19,4 +23,4 @@
 * In the Postman app, click on 'Import' in the upper left hand corner
 * Click on 'Import From Link'
 * Paste the copied link or upload the file from the cloned repository
-* Similarly, import [environment variables](https://raw.githubusercontent.com/FirstDatabank/Health-2-0/master/FDB%20Cloud%20Connector%20API%20Postman%20Environment.json) file 
+
