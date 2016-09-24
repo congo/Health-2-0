@@ -1,0 +1,105 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Meducation API ",
+		"_postman_id": "765fefd8-05d3-b1f0-475b-63381f7060a2",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authorization",
+			"request": {
+				"url": "https://authorizationdev.meducation.com/token",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic SGVhbHRoMi4wLUNvZGVhdGhvbi1xcGtlYS1ERVY6Ym96b2xhZ2U1MQ==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Create a PMI sheet for a specified medication ",
+			"request": {
+				"url": "https://apidev.meducation.com/V2.0/meds",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"umc\", \r\n    \"med\": {\r\n        \"codingSystem\": \"NDC\",\r\n        \"code\": \"59148064023\",\r\n        \"rxName\": \"Abilify Discmelt 10 MG Disintegrating Tablet\", \r\n        \"sig\": {\r\n            \"sigFreeText\": \"Take 1 tablet every day\"\r\n        }\r\n    }\r\n}\r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Language Utility",
+			"request": {
+				"url": "https://apidev.meducation.com/V1.0/languages ",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Font Size Utility",
+			"request": {
+				"url": "https://apidev.meducation.com/V1.0/fontsizes ",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Accessing PMI Content",
+			"request": {
+				"url": "https://apidev.meducation.com/V2.0/meds/{rxId}/med/{instructionId}/{contentType} ?languageCode={languageCode}&fontSize={fontSize} &useSavedLanguageAndFontSize={boolean}&access_token={token}",
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
