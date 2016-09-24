@@ -15,7 +15,8 @@
 
 ###How to import Postman Collection
 * Install Postman https://www.getpostman.com/
-* Copy the raw Postman Collection Json file
-* In the Postman app, click on 'import' in the upper left hand corner
-* Paste the copied Json file or upload the file from the cloned repository
-* Similarly, import environment variables file
+* Copy the raw Postman Collection [Json](https://raw.githubusercontent.com/FirstDatabank/Health-2-0/master/FDB%20Cloud%20Connector%20API.postman_collection.json) file link
+* In the Postman app, click on 'Import' in the upper left hand corner
+* Click on 'Import From Link'
+* Paste the copied link or upload the file from the cloned repository
+* Similarly, import [environment variables](https://raw.githubusercontent.com/FirstDatabank/Health-2-0/master/FDB%20Cloud%20Connector%20API%20Postman%20Environment.json) file 
