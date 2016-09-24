@@ -4,7 +4,7 @@
   "values": [
     {
       "key": "client-secret",
-      "value": "SHAREDKEY CLIENT_ID:SECRET",
+      "value": "SHAREDKEY 1197:n1ndBzCNh+hW7kbVueswEsCGNiDd1yS6U4MKk3kOe14=",
       "type": "text",
       "enabled": true,
       "hovered": false
