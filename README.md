@@ -1,11 +1,11 @@
 ![Image](http://www.fdbhealth.com/~/media/images/logos/fdb_logo.ashx)
 ###For API Access
-* The **FDB Cloud Connector API Postman Environment** provides the key (built into the header)
-* The **Meducation API Postman Collection** contains a call to get the auth token
+* The Postman file **FDB Cloud Connector API Postman Environment** provides the key (built into the header)
+* The Postman file **Meducation API Postman Collection** contains a call to get the auth token
 
 ###Sample API calls
-* The **FDB Cloud Connector API Postman Collection** contains a HUGE library of API calls. They're grouped together by type.
-* The **Meducation API Postman Collection** also contains some sample Meducation API calls
+* The Postman file **FDB Cloud Connector API Postman Collection** contains a HUGE library of API calls. They're grouped together by type.
+* The Postman file **Meducation API Postman Collection** also contains some sample Meducation API calls
 
 ###API Documentation
 * [FDB Cloud Connector API: Online Docs](http://docs.fdbhealth.com/display/CCDOCUS/FDB+Cloud+Connector+Reference+Home)
